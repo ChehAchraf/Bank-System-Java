@@ -26,5 +26,21 @@ public abstract class Operation {
 		return code; 
 	}
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 }

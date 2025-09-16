@@ -13,8 +13,13 @@ public class Versement extends Operation {
 		return source;
 	}
 	
+	public double getMontant() {
+		return montant;
+	}
+	
 	public void setSource(String source) {
 		this.source = source;
 	}
+	
 	
 }

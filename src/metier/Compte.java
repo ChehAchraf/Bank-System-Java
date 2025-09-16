@@ -26,6 +26,8 @@ public abstract class Compte {
     
     public void verser(double montant, String source) {
     		this.solde += montant;
+    		Versement v = new Versement(montant , source);
+    		listOperations.add(v);
     }
     
     public List<Operation> getListOperations() {
