@@ -10,6 +10,7 @@ public abstract class Operation {
     protected double montant;
 
     	public Operation(double montant) {
+    		
     		this.code = UUID.randomUUID().toString();
     		this.date = LocalDateTime.now();
     		this.montant = montant;

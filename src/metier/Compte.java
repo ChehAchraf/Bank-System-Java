@@ -30,12 +30,14 @@ public abstract class Compte {
     		listOperations.add(v);
     }
     
+    
+    
     public List<Operation> getListOperations() {
         return listOperations;
     }
 
     public abstract void showDetails();
-    public abstract void retirer(double montant, String destination);
+    public abstract boolean retirer(double montant);
     public abstract double calculerInteret();
 
 }
