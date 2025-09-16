@@ -14,8 +14,6 @@ public class CompteCourant extends Compte  {
 	}
 	
 	
-	
-
 	public double getDecouvert() {
 		return decouvert;
 	}
