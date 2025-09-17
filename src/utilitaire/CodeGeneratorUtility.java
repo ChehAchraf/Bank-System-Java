@@ -9,5 +9,6 @@ public class CodeGeneratorUtility {
 	public static String generateAccountCode() {
 		int number = 10000 + random.nextInt(90000);
 		return PREFIX + number ; 
+		
 	}
 }

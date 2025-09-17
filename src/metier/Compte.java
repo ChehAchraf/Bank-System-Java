@@ -30,6 +30,12 @@ public abstract class Compte {
     		listOperations.add(v);
     }
     
+    public void verserToAnotherAccount(String code, double montant) {
+    		if(this.solde < montant) {
+    			throw new IllegalArgumentException("Your sold is insufisant");
+    		}
+    }
+    
     
     
     public List<Operation> getListOperations() {
